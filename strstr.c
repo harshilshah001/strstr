@@ -1,6 +1,6 @@
 #include<stdio.h>
- 
-int main()
+
+int strstr()
 {
     char s1[80], s2[10];
     int count1 = 0, count2 = 0, i, j, flag;
@@ -31,6 +31,13 @@ int main()
         printf("s2 is present in s1");
     else
         printf("s2 is not present in s1");
+ 
+    return 0;
+}
+
+int main()
+{
+    strstr();
  
     return 0;
 }
