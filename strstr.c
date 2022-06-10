@@ -2,12 +2,12 @@
  
 int main()
 {
-    char s1[100], s2[10];
+    char s1[80], s2[10];
     int count1 = 0, count2 = 0, i, j, flag;
  
-    printf("Enter first string:");
+    printf("Enter a string:");
     gets(s1);
-    printf("Enter second string:");
+    printf("Enter search substring:");
     gets(s2);
     while (s1[count1] != '\0')
         count1++;
